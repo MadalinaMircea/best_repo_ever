@@ -8,3 +8,33 @@
         <feedback>gresit</feedback>
     </Nota>
 </Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+        <predat>3</predat>
+        <deadline>10</deadline>
+        <feedback>Feedback 2</feedback>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+        <predat>3</predat>
+        <deadline>10</deadline>
+        <feedback>Feedback 2</feedback>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+        <predat>3</predat>
+        <deadline>10</deadline>
+        <feedback>Feedback 2</feedback>
+    </Nota>
+</Note>

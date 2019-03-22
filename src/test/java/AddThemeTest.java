@@ -1,7 +1,7 @@
-import Domain.Student;
-import Repository.StudentRepo;
-import Service.ServiceStudent;
-import Validator.StudentValidator;
+import Domain.Teme;
+import Repository.TemeRepo;
+import Service.ServiceTeme;
+import Validator.TemeValidator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,18 +10,16 @@ import static org.junit.Assert.assertNotEquals;
 public class AddThemeTest {
 
     @Test
-    public void testAddStudent() {
-        StudentRepo repo = new StudentRepo(new StudentValidator(),"C:\\Temp\\studenti.xml");
-        ServiceStudent service = new ServiceStudent(repo);
+    public void testAddTheme() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
 
-        service.del("123");
+        service.del(15);
 
-        assertEquals(service.find("123"), null);
+        assertEquals(service.find(15), null);
 
-        service.add(new Student("123", "Nume", 935, "a@b.c", "Prof"));
+        service.add(new Teme(15, "Desc", 1, 2));
 
-        assertNotEquals(service.find("123"), null);
-
-        service.del("123");
+        assertNotEquals(service.find(15), null);
     }
 }

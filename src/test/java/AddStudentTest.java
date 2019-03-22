@@ -1,19 +1,25 @@
+import Domain.Student;
+import Repository.StudentRepo;
+import Service.ServiceStudent;
+import Validator.StudentValidator;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AddStudentTest {
 
     @Test
-    public void testConcatenate() {
-        AddStudentTest myUnit = new AddStudentTest();
+    public void testAddStudent() {
+        StudentRepo repo = new StudentRepo(new StudentValidator(),"studenti.xml");
+        ServiceStudent service = new ServiceStudent(repo);
 
-        String result = myUnit.concatenate("one", "two");
+        service.del("123");
 
-        assertEquals("onetwo", result);
+        assertEquals(service.find("123"), null);
 
-    }
+        service.add(new Student("123", "Nume", 935, "a@b.c", "Prof"));
 
-    private String concatenate(String s1, String s2){
-        return s1+s2;
+        assertNotEquals(service.find("123"), null);
+
+        service.del("123");
     }
 }

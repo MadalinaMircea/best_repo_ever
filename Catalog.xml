@@ -14,3 +14,91 @@
         <valoare>5.0</valoare>
     </Nota>
 </Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nume>Gorea Andra</nume>
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="33">
+        <nume>Nume</nume>
+        <nr>3</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nume>Gorea Andra</nume>
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="33">
+        <nume>Nume</nume>
+        <nr>3</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="22">
+        <nume>Gorea Andra</nume>
+        <nr>2</nr>
+        <valoare>7.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="33">
+        <nume>Nume</nume>
+        <nr>3</nr>
+        <valoare>10.0</valoare>
+    </Nota>
+</Note>
