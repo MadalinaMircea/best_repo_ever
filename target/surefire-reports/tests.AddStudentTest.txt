@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.AddStudentTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in tests.AddStudentTest
