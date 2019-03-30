@@ -27,6 +27,19 @@ public class AddStudentTest {
     }
 
     @Test
+    public void testAddStudent() {
+        testAddSameStudent();
+        testAddInvalidEmail2Student();
+        testAddInvalidEmailStudent();
+        testAddInvalidGroupStudent();
+        testAddInvalidGrupa2Student();
+        testAddNullIdStudent();
+        testAddStringIdStudent();
+        testAddInvalidNameStudent();
+        testAddInvalidProfessorStudent();
+    }
+
+    @Test
     public void testAddSameStudent() {
         StudentRepo repo = new StudentRepo(new StudentValidator(),"studenti.xml");
         ServiceStudent service = new ServiceStudent(repo);
@@ -185,7 +198,4 @@ public class AddStudentTest {
 
         service.del("1234");
     }
-
-
-
 }

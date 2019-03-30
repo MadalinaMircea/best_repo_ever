@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270f8e6d-512a-4406-b989-51948f8a2a98" name="Default Changelist" comment="Default Changelist">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/AddStudentTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddStudentTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddStudentTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddStudentTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="644">
+              <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="502">
@@ -153,8 +154,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AddGradeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddGradeTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddStudentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java" />
       </list>
     </option>
   </component>
@@ -468,28 +469,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddStudentTest.testAddInvalidGrupa2Student">
-    <configuration default="false" name="AddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MonitorizareTemeLaboratorV04" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddStudentTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AddStudentTest.testAddStudent">
     <configuration default="false" name="AddStudentTest.testAddInvalidEmailStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MonitorizareTemeLaboratorV04" />
@@ -561,6 +541,32 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AddStudentTest" />
       <option name="METHOD_NAME" value="testAddInvalidGrupa2Student" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddStudentTest.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MonitorizareTemeLaboratorV04" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddStudentTest" />
+      <option name="METHOD_NAME" value="testAddStudent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -1143,19 +1149,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AddStudentTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmailStudent" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmail2Student" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidProfessorStudent" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidGrupa2Student" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmailStudent" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmail2Student" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidProfessorStudent" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidGrupa2Student" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddStudent" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidGrupa2Student" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidProfessorStudent" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmail2Student" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmailStudent" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AddStudentTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddStudent" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidGrupa2Student" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidProfessorStudent" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmail2Student" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddStudentTest.testAddInvalidEmailStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -1174,7 +1180,7 @@
       <updated>1550873234484</updated>
       <workItem from="1550873237475" duration="598000" />
       <workItem from="1552909621080" duration="8592000" />
-      <workItem from="1553957427733" duration="2845000" />
+      <workItem from="1553957427733" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1553959582945</created>
@@ -1196,17 +1202,8 @@
     <history-entry file="AddStudentTest_testAddInvalidEmailStudent - 2019.03.30 at 17h 08m 22s.xml">
       <configuration name="AddStudentTest.testAddInvalidEmailStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddStudentTest_testAddInvalidGroupStudent - 2019.03.30 at 17h 04m 52s.xml">
-      <configuration name="AddStudentTest.testAddInvalidGroupStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddStudentTest_testAddInvalidGrupa2Student - 2019.03.30 at 17h 11m 26s.xml">
       <configuration name="AddStudentTest.testAddInvalidGrupa2Student" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_testAddInvalidNameStudent - 2019.03.30 at 17h 06m 26s.xml">
-      <configuration name="AddStudentTest.testAddInvalidNameStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddStudentTest_testAddInvalidNameStudent - 2019.03.30 at 17h 06m 31s.xml">
-      <configuration name="AddStudentTest.testAddInvalidNameStudent" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AddStudentTest_testAddInvalidNameStudent - 2019.03.30 at 17h 06m 46s.xml">
       <configuration name="AddStudentTest.testAddInvalidNameStudent" configurationId="JUnit" />
@@ -1217,13 +1214,22 @@
     <history-entry file="AddStudentTest_testAddInvalidProfessorStudent - 2019.03.30 at 17h 09m 38s.xml">
       <configuration name="AddStudentTest.testAddInvalidProfessorStudent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddStudentTest_testAddStudent - 2019.03.30 at 17h 50m 23s.xml">
+      <configuration name="AddStudentTest.testAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_testAddStudent - 2019.03.30 at 17h 50m 59s.xml">
+      <configuration name="AddStudentTest.testAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTest_testAddStudent - 2019.03.30 at 17h 51m 16s.xml">
+      <configuration name="AddStudentTest.testAddStudent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12035000" />
+    <option name="totallyTimeSpent" value="12781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1233,7 +1239,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1592,21 +1598,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddStudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
