@@ -40,4 +40,102 @@ public class AddAssignmentTest {
 
         service.del(1);
     }
+
+    @Test
+    public void testAddAssignmentNullID() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(null, "Desc", 1, 2));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("ID invalid"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
+
+    @Test
+    public void testAddAssignmentNegativeID() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(-5, "Desc", 1, 2));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("ID invalid"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
+
+    @Test
+    public void testAddAssignmentGreaterDeadline() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(1, "Desc", 1, 20));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("Deadline invalid"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
+
+    @Test
+    public void testAddAssignmentNegativeDeadline() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(1, "Desc", 1, -20));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("Deadline invalid"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
+
+    @Test
+    public void testAddAssignmentLowerDeadline() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(1, "Desc", 5, 2));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("Deadline invalid"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
+
+    @Test
+    public void testAddAssignmentGreaterPrimire() {
+        TemeRepo repo = new TemeRepo(new TemeValidator(),"teme.xml");
+        ServiceTeme service = new ServiceTeme(repo);
+        int previousSize = repo.size();
+        try
+        {
+            service.add(new Teme(1, "Desc", 20, 2));
+        }
+        catch(Exception e)
+        {
+            assertTrue(e.getMessage().contains("Saptamana in care tema a fost primita este invalida"));
+        }
+        Assert.assertTrue(repo.size()==previousSize);
+    }
 }
