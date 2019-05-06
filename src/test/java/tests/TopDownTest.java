@@ -17,14 +17,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.AbstractMap;
-import java.util.Date;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertTrue;
 
-public class IntegrationTest {
+public class TopDownTest {
     StudentRepo studentRepo;
     ServiceStudent serviceStudent;
     TemeRepo assignmentRepo;
@@ -44,13 +42,6 @@ public class IntegrationTest {
     }
 
     @Test
-    public void integrationTest() {
-        addStudentTest();
-        addAssignmentTest();
-        addGradeTest();
-    }
-
-    @Test
     public void addStudentTest() {
         serviceStudent.del("123");
 
@@ -59,19 +50,31 @@ public class IntegrationTest {
         serviceStudent.add(new Student("123", "Nume", 935, "a@b.c", "Prof"));
 
         assertNotEquals(serviceStudent.find("123"), null);
+
+        serviceStudent.del("123");
     }
 
     @Test
     public void addAssignmentTest() {
+        serviceStudent.add(new Student("123", "Nume", 935, "a@b.c", "Prof"));
+
         serviceAssignment.del(1);
 
         int previousSize = assignmentRepo.size();
         serviceAssignment.add(new Teme(1, "Desc", 1, 2));
         Assert.assertTrue(assignmentRepo.size()==previousSize + 1);
+
+        serviceAssignment.del(1);
+
+        serviceStudent.del("123");
     }
 
     @Test
     public void addGradeTest() {
+        serviceStudent.add(new Student("123", "Nume", 935, "a@b.c", "Prof"));
+
+        serviceAssignment.add(new Teme(1, "Desc", 1, 2));
+
         int previousSize = gradeRepo.size();
         Student student = serviceStudent.find("123");
         Teme assignment = serviceAssignment.find(1);
@@ -79,5 +82,9 @@ public class IntegrationTest {
         Nota nota = new Nota(id, student, assignment, 10, 2);
         serviceGrade.add(nota, "ok");
         Assert.assertTrue(gradeRepo.size()==previousSize + 1);
+
+        serviceAssignment.del(1);
+
+        serviceStudent.del("123");
     }
 }
